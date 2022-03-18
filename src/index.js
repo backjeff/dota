@@ -20,6 +20,12 @@ app.get('/io', function(req, res) {
     );
 });
 
+app.get('/zeus', function(req, res) {
+    res.json(
+        JSON.parse(fs.readFileSync('src/heroes/zeus.json'))
+    );
+});
+
 app.listen(3000, () => {
     console.log("Dota app running")
 })

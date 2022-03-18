@@ -1,0 +1,12 @@
+{
+    "name": "Zeus",
+    "class": "intelligence",
+    "attack": "ranged",
+    "skills": {
+        "q": {
+            "name": "Arc Lightning",
+            "slow": 0.5,
+            "dps": 45
+        }
+    }
+}
