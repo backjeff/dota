@@ -1,0 +1,12 @@
+{
+    "name": "Alchemist",
+    "class": "strength",
+    "attack": "melee",
+    "skills": {
+        "q": {
+            "name": "Acid Spray",
+            "slow": 0.5,
+            "dps": 35
+        }
+    }
+}
