@@ -1,0 +1,12 @@
+{
+    "name": "Kunkka",
+    "class": "strength",
+    "attack": "melee",
+    "skills": {
+        "q": {
+            "name": "Torrent",
+            "slow": 0.5,
+            "dps": 45
+        }
+    }
+}
