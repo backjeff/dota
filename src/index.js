@@ -14,6 +14,12 @@ app.get('/kunkka', function(req, res) {
     );
 });
 
+app.get('/io', function(req, res) {
+    res.json(
+        JSON.parse(fs.readFileSync('src/heroes/io.json'))
+    );
+});
+
 app.listen(3000, () => {
     console.log("Dota app running")
 })

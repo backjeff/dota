@@ -1,0 +1,11 @@
+{
+    "name": "Io",
+    "class": "strength",
+    "attack": "ranged",
+    "skills": {
+        "q": {
+            "name": "Tether",
+            "slow": 0.5
+        }
+    }
+}
